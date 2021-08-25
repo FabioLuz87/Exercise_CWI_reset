@@ -1,0 +1,11 @@
+nomeCompleto = "Fabio Warken Luz"
+apelido = "Fabão"
+idade = "33"
+dataNascimento = "08/10/1987"
+localNascimento = "Campo Bom"
+altura = 1.87
+trabalhando = "empregado"
+
+apresentacao = "Meu nome é " + nomeCompleto + " (sou conhecido[a] como " + apelido + ") e tenho " + idade + " anos. Nasci no dia " + dataNascimento + ", na cidade de " + localNascimento + ". Tenho " + altura + "m de altura e atualmente estou " + (trabalhando ? "empregado" : "desempregado") + "."
+
+console.log(apresentacao)
