@@ -1,0 +1,7 @@
+//exercício 01
+nomeDoFulano = "Renato"
+nomeDoBeltrano = "Renato"
+
+mesmoNome = (nomeDoFulano == nomeDoBeltrano)
+
+console.log(mesmoNome)
