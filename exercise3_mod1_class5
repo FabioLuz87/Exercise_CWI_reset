@@ -1,0 +1,4 @@
+valorDoBoleto = 354.00
+valorComJuros = valorDoBoleto * 1.1
+
+console.log(valorComJuros)
