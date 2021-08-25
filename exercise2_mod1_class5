@@ -1,0 +1,4 @@
+idade = 18
+maiorIdade = (idade >=18)
+
+console.log(maiorIdade)
