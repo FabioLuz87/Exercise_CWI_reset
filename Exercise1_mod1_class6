@@ -1,0 +1,44 @@
+peso = 50
+altura = 1.70
+
+imc = peso/(altura*altura)
+
+if (imc < 18.50)
+{
+classificacao = "Magreza"
+}
+else if(imc < 24.99)
+{
+classificacao = "Normal"
+}
+else if(imc < 29.99 )
+{
+classificacao = "Sobrepeso"
+}
+else if(imc < 39.99 )
+{
+classificacao = "Obesidade"
+}
+else
+{
+classificacao = "Obesidade grave"
+}
+console.log("O seu Indice de Massa Corporal é",imc)
+console.log("A sua classificação é",classificacao)
+
+switch(classificacao){
+  case "Sobrepeso":
+    console.log("Cuidado! Você está acima do peso recomendado pela OMS.")
+  break;
+
+  case "Obesidade":
+    console.log("Cuidado! Você está acima do peso recomendado pela OMS.")
+  break;
+
+  case "Obesidade grave":
+    console.log("É importante procurar um médico para avaliar sua saúde.")
+  break;
+  
+}
+
+
