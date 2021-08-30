@@ -1,9 +1,0 @@
-conjunto = [0,5,10,15,20,25,30,35,40,45,50]
-
-soma = 0
-for (index = 0; index < conjunto.length; index++) {
-    soma += conjunto[index]
-}
-
-media = soma / conjunto.length
-console.log(media)
