@@ -1,0 +1,8 @@
+timesDeFutebol = ["Grêmio", "Inter", "Corinthians", "Flamengo" , "Palemiras"]
+
+for(pos = 0; pos < timesDeFutebol.length; pos++){
+timeSelecionado = pos
+
+nomeDoTime = timesDeFutebol[timeSelecionado]
+console.log(nomeDoTime)
+console.log("")
