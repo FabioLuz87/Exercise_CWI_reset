@@ -1,5 +1,0 @@
-function imprimir(i){
-  console.log(i)
-}
-
-imprimir("Teste de impressão")
