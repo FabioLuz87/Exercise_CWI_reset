@@ -1,0 +1,14 @@
+function imprimir(i){
+  console.log(i)
+
+}
+
+valorDoBoleto = 354.00
+
+function valorComJuros(valorDoBoleto){
+  return valorDoBoleto * 1.1
+}
+
+var resultado = valorComJuros(valorDoBoleto)
+
+imprimir(resultado)
