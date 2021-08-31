@@ -1,0 +1,17 @@
+function imprimir(i){
+  console.log(i)
+
+}
+
+function comparar(idade , maiorIdade){
+  return idade >= maiorIdade
+}
+
+idade = 15
+
+maiorIdade = 18
+
+var resultado = comparar(idade , maiorIdade)
+imprimir(resultado)
+
+
