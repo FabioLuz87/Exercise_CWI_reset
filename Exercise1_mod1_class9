@@ -1,0 +1,12 @@
+function imprimir(i){
+  console.log(i)
+
+}
+
+function comparar(a,b){
+  return a == b
+}
+
+var resultado = comparar("Airton","Airton")
+
+imprimir(resultado)
