@@ -1,1 +1,18 @@
+package fabio.aula7;
+
+import java.util.Scanner;
+
+public class ProgramaDeSoma {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Digite o primeiro número");
+        int primeiroNumero = teclado.nextInt();
+        System.out.println("Digite o segundo número");
+        int segundoNumero = teclado.nextInt();
+
+        System.out.println(" A soma destes números que digitastes é : " + (primeiroNumero + segundoNumero));
+
+    }
+}
 
