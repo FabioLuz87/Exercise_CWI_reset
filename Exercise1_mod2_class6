@@ -1,0 +1,13 @@
+package fabio.aula6;
+
+import java.util.Scanner;
+
+public class AulaScanner {
+    public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Escreva seu nome completo: ");
+        String nomeCompleto = teclado.nextLine();
+        System.out.println("Sou aluno do CWi Reser e me chamo: " + nomeCompleto);
+    }
+}
